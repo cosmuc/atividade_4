@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input radio</title>
+</head>
+<body>
+    <form action="/usuarios" method="post">
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text"id="Nome"placeholder="digite seu nome" requiered>
+        </div>
+        <!-- input radio -->
+        <div>
+            <p>Dia das torres gêmeas?</p>
+            <div>
+                <input type="radio" id="opcao1">
+                <label for="opcao1">31 de outubro</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao2"name="natal">
+                <label for="opcao2">25 de dezembro</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao3" name="diafeliz">
+                <label for="opcao3">11 de setembro</label>
+            </div>
+
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

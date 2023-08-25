@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><select name="" id=""></select></title>
+</head>
+<body>
+    <form action="/usuarios" method="post">
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text"id="Nome"placeholder="digite seu nome" requiered>
+        </div>
+        <!-- input radio -->
+        <div>
+            <p>Dia do saci (pq n é dia das bruxas, serio fica muito melhor)</p>
+            <div>
+                <input type="radio" id="opcao1">
+                <label for="opcao1">31 de outubro</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao2"name="natal">
+                <label for="opcao2">25 de dezembro</label>
+            </div>
+            
+
+        </div>
+        <!--select  -->
+        <div>
+            <label for="turma">Selecione sua turma:</label>
+            <select name="truma" id="truma">0
+                <option disabled selected>- - - -</option>
+                <option value="01ma">01MA</option>
+                <option value="01mb">01MB</option>
+            </select>
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
