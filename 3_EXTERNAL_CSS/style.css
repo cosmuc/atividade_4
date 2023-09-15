@@ -1,3 +1,8 @@
 h1{
     color: darkslategrey;
 }
+p{
+    color: dimgrey;
+    background: #864886;
+    font-size: 1rem;
+}
